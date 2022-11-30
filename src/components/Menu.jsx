@@ -1,15 +1,156 @@
 import React from 'react';
 import styled from 'styled-components';
+import HomeIcon from '@mui/icons-material/Home';
+import AttributionIcon from '@mui/icons-material/Attribution';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
+import HistoryIcon from '@mui/icons-material/History';
+import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
+import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
+import FiberNewIcon from '@mui/icons-material/FiberNew';
+import LiveTvIcon from '@mui/icons-material/LiveTv';
+import SettingsIcon from '@mui/icons-material/Settings';
+import ReportIcon from '@mui/icons-material/Report';
+import HelpIcon from '@mui/icons-material/Help';
+import SettingsBrightnessIcon from '@mui/icons-material/SettingsBrightness';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Container = styled.div`
   flex: 1;
-  height: 100vh;
+  height: 115vh;
   background-color: #202020;
   color: white;
+  font-size: 14px;
+`;
+
+const Wrapper = styled.div`
+  padding: 18px 26px;
+`;
+const LogoText = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+`;
+
+const LogoImg = styled.img`
+  width: 45px;
+  height: 45px;
+`;
+
+const Item = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 7.5px 0px;
+`;
+
+const Hr = styled.div`
+  margin: 15px 0px;
+  border: 0.5px solid #373737;
+`;
+
+const SignIn = styled.div``;
+const SignInButton = styled.button`
+  padding: 1.5px 5px;
+  background-color: transparent;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #3ea6ff;
+  color: #3ea6ff;
+  border-radius: 3px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
 `;
 
 const Menu = () => {
-  return <Container>Menu</Container>;
+  return (
+    <Container>
+      <Wrapper>
+        <LogoText>
+          <LogoImg src='https://res.cloudinary.com/mmin/image/upload/v1669291157/NinTube/nintubeLogo_vuwtnp.png' />{' '}
+          NinTube
+        </LogoText>
+        <Item>
+          <HomeIcon />
+          Home
+        </Item>
+        <Item>
+          <EngineeringIcon />
+          Ninjutsu
+        </Item>
+        <Item>
+          <SubscriptionsIcon />
+          Subscriptions
+        </Item>
+        <Hr />
+        <Item>
+          <AttributionIcon />
+          Chakra
+        </Item>
+        <Item>
+          <HistoryIcon />
+          History
+        </Item>
+        <Hr />
+        <SignIn>
+          Sign in to like videos, commment, and subscribe. <br />
+          <SignInButton>
+            {' '}
+            <AccountCircleIcon />
+            SIGN IN
+          </SignInButton>
+        </SignIn>
+        <Item>
+          <LibraryMusicIcon />
+          Music
+        </Item>
+        <Item>
+          <SportsBasketballIcon />
+          Sports
+        </Item>
+        <Item>
+          <SportsEsportsIcon />
+          Gaming
+        </Item>
+        <Item>
+          <LocalMoviesIcon />
+          Movies
+        </Item>
+        <Item>
+          <FiberNewIcon />
+          News
+        </Item>
+        <Item>
+          <LiveTvIcon />
+          Live
+        </Item>
+        <Hr />
+        <Item>
+          <SettingsIcon />
+          Settings
+        </Item>
+        <Item>
+          <ReportIcon />
+          Report
+        </Item>
+        <Item>
+          <HelpIcon />
+          Help
+        </Item>
+        <Item>
+          <SettingsBrightnessIcon />
+          Light Mode
+        </Item>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Menu;

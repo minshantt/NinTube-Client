@@ -20,6 +20,19 @@ function App() {
       <Main>
         <Navbar />
         <Wrapper>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
+          <h1>Vid</h1>
           <VideoCard />
         </Wrapper>
       </Main>
