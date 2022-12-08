@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import VideoCard from './components/VideoCard';
-import { darkTheme, lightTheme } from './utils/theme';
+import { narutoTheme, sasukeTheme } from './utils/Theme';
 const Container = styled.div`
   display: flex;
   background-color: ${({ theme }) => theme.bg};
@@ -16,11 +16,11 @@ const Main = styled.div`
 const Wrapper = styled.div``;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [ninTheme, setNinTheme] = useState(true);
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={ninTheme ? narutoTheme : sasukeTheme}>
       <Container>
-        <Menu darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Menu theme={ninTheme} setTheme={setNinTheme} />
         <Main>
           <Navbar />
           <Wrapper>

@@ -1,14 +1,16 @@
-export const darkTheme = {
-  bg: '#34495e',
-  bgBar: '#202020',
-  text: 'white',
-  textSoft: '#aaaaaa',
-  mainSoft: '#373737',
-};
-export const lightTheme = {
-  bg: '#dc7633',
-  bgBar: 'white',
-  text: '#1c2833',
-  textSoft: '#212f3c',
+export const narutoTheme = {
+  bg: '#d35400',
+  bgBar: '#dc7633',
+  text: '#17202a',
+  textSoft: '#273746',
   mainSoft: '#e59866',
+  signIn: '#f7dc6f',
+};
+export const sasukeTheme = {
+  bg: '#1b2631',
+  bgBar: '#212f3c',
+  text: '#f7f9f9',
+  textSoft: '#f0f3f4',
+  mainSoft: '#283747',
+  signIn: '#3ea6ff',
 };

@@ -20,7 +20,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 const Container = styled.div`
   flex: 1;
   height: 120vh;
-  background-color: ${({ theme }) => theme.bg};
+  background-color: ${({ theme }) => theme.bgBar};
   color: ${({ theme }) => theme.text};
   font-size: 14px;
   position: sticky;
@@ -63,8 +63,8 @@ const SignInButton = styled.button`
   display: flex;
   gap: 5px;
   align-items: center;
-  border: 1px solid #3ea6ff;
-  color: #3ea6ff;
+  border: 1px solid ${({ theme }) => theme.signIn};
+  color: ${({ theme }) => theme.signIn};
   border-radius: 3px;
   font-weight: 500;
   margin-top: 10px;
@@ -78,7 +78,7 @@ const BestOf = styled.h2`
   margin-top: 20px;
 `;
 
-const Menu = ({ darkMode, setDarkMode }) => {
+const Menu = ({ theme, setTheme }) => {
   return (
     <Container>
       <Wrapper>
@@ -155,7 +155,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
           <HelpIcon />
           Help
         </Item>
-        <Item onClick={() => setDarkMode(!darkMode)}>
+        <Item onClick={() => setTheme(!theme)}>
           <SettingsBrightnessIcon />
           Light Mode
         </Item>
