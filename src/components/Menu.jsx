@@ -16,6 +16,7 @@ import ReportIcon from '@mui/icons-material/Report';
 import HelpIcon from '@mui/icons-material/Help';
 import SettingsBrightnessIcon from '@mui/icons-material/SettingsBrightness';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
   flex: 1;
@@ -82,14 +83,18 @@ const Menu = ({ theme, setTheme }) => {
   return (
     <Container>
       <Wrapper>
-        <LogoText>
-          <LogoImg src='https://res.cloudinary.com/mmin/image/upload/v1669291157/NinTube/nintubeLogo_vuwtnp.png' />{' '}
-          NinTube
-        </LogoText>
-        <Item>
-          <HomeIcon />
-          Home
-        </Item>
+        <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <LogoText>
+            <LogoImg src='https://res.cloudinary.com/mmin/image/upload/v1669291157/NinTube/nintubeLogo_vuwtnp.png' />{' '}
+            NinTube
+          </LogoText>
+        </Link>
+        <Link to='/home' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <Item>
+            <HomeIcon />
+            Home
+          </Item>
+        </Link>
         <Item>
           <EngineeringIcon />
           Ninjutsu
