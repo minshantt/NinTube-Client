@@ -162,7 +162,7 @@ const Menu = ({ theme, setTheme }) => {
         </Item>
         <Item onClick={() => setTheme(!theme)}>
           <SettingsBrightnessIcon />
-          Light Mode
+          {theme ? 'Sasuke Mode' : 'Naruto Mode'}
         </Item>
       </Wrapper>
     </Container>

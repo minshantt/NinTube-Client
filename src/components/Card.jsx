@@ -52,7 +52,6 @@ const Card = () => {
         <VidCovImg src='https://i.pinimg.com/originals/2f/13/58/2f13585e779db57afbcdbab17ded3e29.gif' />
         <VidDetails>
           <ChImg src='https://i.pinimg.com/564x/eb/25/a7/eb25a7a21df1a04e093cbfe3694de98a.jpg' />
-          <ChTitle />
           <ChText>
             <ChTitle>Explaining The Mangekyou Sharingan !!</ChTitle>
             <ChName>Mister Itachi</ChName>
