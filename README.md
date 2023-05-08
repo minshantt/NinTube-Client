@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+![Nintube_Logo](https://res.cloudinary.com/mmin/image/upload/v1669291157/NinTube/nintubeLogo_vuwtnp.png){width=500px
+height=300px}
+<img src="https://res.cloudinary.com/mmin/image/upload/v1669291157/NinTube/nintubeLogo_vuwtnp.png" alt="NinTube_Logo" width="300" height="300">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NinTube [client-side]
 
-## Available Scripts
+**NinTube** is a web-based video platform that emulates the features of YouTube.
+developed using **_React_** and **_styled components_**, and leverages the
+functionality of **_React Router DOM_** and **_React Hooks_**. Furthermore, and
+also features a custom theme created using the **_Theme Provider_**
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To get started with the NinTube project, follow the steps below:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository from GitHub using the
+   command`git clone https://github.com/yourusername/nintube.git`.
+2. Install the necessary dependencies by running `npm i`.
+3. Start the development server using `npm start`.
+4. Visit `http://localhost:3000` in your browser to see the project in action.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
 
-### `npm test`
+The project structure is organized as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```structure_directory
+src/
+├── components/
+│ ├── AddComment.jsx
+│ ├── Card.jsx
+│ ├── Comments.jsx
+│ ├── Menu.jsx
+│ ├── Navbar.jsx
+│ ├── VideoCard.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── SignIn.jsx
+│ ├── Video.jsx
+│
+├── utils/
+│ ├── theme.jsx
+│
+├── App.js
+├── index.js
+└── ...
+```
 
-### `npm run build`
+| Path Directory | Description                                                                      |
+| -------------- | -------------------------------------------------------------------------------- |
+| AddComment.jsx | Component for adding comments for users on a video                               |
+| Card.jsx       | Component for displaying a video card on landing page                            |
+| Comments.jsx   | Component for displaying comments on a video                                     |
+| Menu.jsx       | Component for displaying all of menu with links to various pages                 |
+| Navbar.jsx     | Component of navigation bar such as search bar and sign in                       |
+| Home.jsx       | Main landing page that displays a curated selection of videos.                   |
+| SignIn.jsx     | To log in to their account or create a new account                               |
+| Video.jsx      | Single video page that displays a specific video and its associated information. |
+| theme.jsx      | Directory contains the styling variables and configuration                       |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React: A JavaScript library for building user interfaces.
+- Styled Components: A CSS-in-JS styling library for React.
+- React Router DOM: A routing library for React.
+- React Hooks: A feature introduced in React 16.8 that allows functional
+  components to use state and other React features.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+Our [Netlify : NinTube <<<](link.com)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The NinTube project can be deployed to a variety of platforms, such as Netlify,
+Heroku, or AWS. To deploy the project, follow the steps below:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Build the project using npm run build. Choose a deployment platform and follow
+the platform-specific instructions for deployment.
+![Narutopixel](https://media3.giphy.com/media/mbfP9v8u43Afvyc8Sy/200w.webp?cid=ecf05e47m0xoq80em1lkoa9zl1kpxxncbdyaqk6vwpb0ojza&rid=200w.webp&ct=)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_NinTube_ was inspired by the popular video-sharing platform YouTube, and was
+built as a personal project for learning purposes.
 
-## Learn More
+![MinShantt](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODU4YTNmNGFhNDE0ZGVhYWU5OTEzM2I2NTFlYTQyNjQ2ZjU3OTUyNCZjdD1z/szQYBuAJaOta7UQ8Au/giphy.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- - - - - - Keep pushing, keep growing.g
