@@ -6,6 +6,9 @@ import ShareIcon from '@mui/icons-material/Share';
 import ContentCutIcon from '@mui/icons-material/ContentCut';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import AddComment from '../components/AddComment';
+import Comments from '../components/Comments';
+import Card from '../components/Card';
 
 const Container = styled.div`
   display: flex;
@@ -19,7 +22,6 @@ const VidContent = styled.div`
 const VidWrapper = styled.div``;
 const VidRecommend = styled.div`
   flex: 2;
-  background: #cdcdcd;
 `;
 
 const Ch = styled.div`
@@ -91,6 +93,7 @@ const SubButt = styled.button`
   margin: 5px 0px 5px 7px;
   padding: 0px 15px;
 `;
+
 const Butt = styled.div`
   display: flex;
   align-items: center;
@@ -102,7 +105,6 @@ const Hr = styled.hr`
   border: 0.5px solid ${({ theme }) => theme.mainSoft};
   margin: 15px 0px;
 `;
-const DislikeButt = styled.div``;
 
 const BorderInfo = styled.div`
   border-radius: 7px 7px 7px 7px;
@@ -190,13 +192,35 @@ const Video = () => {
           <VidInfo>
             Sharingan is one of the strongest eyes in the anime and manga
             Naruto: Shippuden and Boruto: Next Generation. In this video I will
-            tell you about all the users of Sharingan. You are watching the Eva
-            Mihael channel. Enjoy!
+            tell you about all the users of Sharingan. You are watching the
+            Mister ITachi channel. Enjoy!
           </VidInfo>
         </BorderButton>
-        <Hr />
+        <AddComment />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
+        <Comments />
       </VidContent>
-      <VidRecommend>Rec</VidRecommend>
+      <VidRecommend>
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+        <Card type='sm' />
+      </VidRecommend>
     </Container>
   );
 };

@@ -50,6 +50,9 @@ const Item = styled.div`
   gap: 10px;
   cursor: pointer;
   padding: 7.5px 0px;
+
+  &:hover {
+    background-color: ${({ theme }) => theme.hover};
 `;
 
 const Hr = styled.div`
@@ -89,7 +92,7 @@ const Menu = ({ theme, setTheme }) => {
             NinTube
           </LogoText>
         </Link>
-        <Link to='/home' style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to='/' style={{ textDecoration: 'none', color: 'inherit' }}>
           <Item>
             <HomeIcon />
             Home
@@ -113,14 +116,16 @@ const Menu = ({ theme, setTheme }) => {
           History
         </Item>
         <Hr />
-        <SignIn>
-          Sign in to like videos, commment, and subscribe. <br />
-          <SignInButton>
-            {' '}
-            <AccountCircleIcon />
-            SIGN IN
-          </SignInButton>
-        </SignIn>
+        <Link to='/SignIn' style={{ textDecoration: 'none', color: 'inherit' }}>
+          <SignIn>
+            Sign in to like videos, commment, and subscribe. <br />
+            <SignInButton>
+              {' '}
+              <AccountCircleIcon />
+              SIGN IN
+            </SignInButton>
+          </SignIn>
+        </Link>
         <Hr />
         <BestOf>BEST OF NINTUBE</BestOf>
         <Item>

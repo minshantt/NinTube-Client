@@ -6,6 +6,7 @@ export const narutoTheme = {
   mainSoft: '#e59866',
   signIn: '#f7dc6f',
   subscribe: '#F4D03F',
+  hover: '#f7dc6f',
 };
 export const sasukeTheme = {
   bg: '#1b2631',
@@ -15,4 +16,5 @@ export const sasukeTheme = {
   mainSoft: '#283747',
   signIn: '#3ea6ff',
   subscribe: '#CB4335',
+  hover: '#3ea6ff',
 };
