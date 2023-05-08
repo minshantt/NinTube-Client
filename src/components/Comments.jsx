@@ -46,10 +46,6 @@ const ChCommentAction = styled.div`
   font-size: 14px;
 `;
 
-const ChLikeButt = styled.button`
-  padding: 10px 10px;
-`;
-
 const ChLikeCount = styled.span`
   display: block;
   margin: 0px 0px 0px -10px;

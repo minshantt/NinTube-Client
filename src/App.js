@@ -3,14 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import { narutoTheme, sasukeTheme } from './utils/Theme.js';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-  Routes,
-  BrowserRouter,
-} from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Video from './pages/Video';
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';

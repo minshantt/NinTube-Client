@@ -101,18 +101,19 @@ const Butt = styled.div`
   color: ${({ theme }) => theme.text};
 `;
 
-const Hr = styled.hr`
-  border: 0.5px solid ${({ theme }) => theme.mainSoft};
-  margin: 15px 0px;
-`;
+// const Hr = styled.hr`
+//   border: 0.5px solid ${({ theme }) => theme.mainSoft};
+//   margin: 15px 0px;
+// `;
 
-const BorderInfo = styled.div`
-  border-radius: 7px 7px 7px 7px;
-  background: ${({ theme }) => theme.mainSoft};
-  padding: 10px 0px;
-  weight: auto;
-  height: auto;
-`;
+// const BorderInfo = styled.div`
+//   border-radius: 7px 7px 7px 7px;
+//   background: ${({ theme }) => theme.mainSoft};
+//   padding: 10px 0px;
+//   weight: auto;
+//   height: auto;
+// `;
+
 const BorderButton = styled.div`
   border-radius: 7px 7px 7px 7px;
   background: ${({ theme }) => theme.mainSoft};
