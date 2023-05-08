@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import Menu from './components/Menu';
 import Navbar from './components/Navbar';
-import { narutoTheme, sasukeTheme } from './utils/Theme';
+import { narutoTheme, sasukeTheme } from './utils/Theme.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
