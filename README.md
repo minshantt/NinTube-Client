@@ -66,7 +66,7 @@ src/
 
 ## Deployment
 
-Our [Netlify : NinTube <<<](link.com)
+Our [Netlify : NinTube <<<](https://minshantt-nintube.netlify.app.com)
 
 The NinTube project can be deployed to a variety of platforms, such as Netlify,
 Heroku, or AWS. To deploy the project, follow the steps below:
