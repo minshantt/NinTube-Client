@@ -68,7 +68,7 @@ src/
 
 ## Deployment 🌏
 
-Our [Netlify : NinTube <<<](https://minshantt-nintube.netlify.app.com)
+Our [Netlify : NinTube <<<](https://minshantt-nintube.netlify.app)
 
 The NinTube project can be deployed to a variety of platforms, such as Netlify,
 Heroku, or AWS. To deploy the project, follow the steps below:
@@ -87,4 +87,4 @@ built as a personal project for learning purposes.
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODU4YTNmNGFhNDE0ZGVhYWU5OTEzM2I2NTFlYTQyNjQ2ZjU3OTUyNCZjdD1z/szQYBuAJaOta7UQ8Au/giphy.gif" alt="gitjourney")
 </p>
 
-- - - - - - ### Keep pushing, keep growing
+- - - - - - ### Keep pushing, keep growing 💭
